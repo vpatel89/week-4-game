@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars RPG</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<div class="title">
+		<p>Star Wars RPG!</p>
+	</div>
+
+	<div class="allCharacters">
+		<div class="col-md-12">
+			<div class="character" id="luke">
+				<h3>Luke Skywalker</h3>
+				<h4 id="lukeHP"></h4>
+			</div>
+
+			<div class="character" id="yoda">
+				<h3>Yoda</h3>	
+				<h4 id="yodaHP"></h4>		
+			</div>
+
+			<div class="character" id="vader">
+				<h3>Darth Vader</h3>
+				<h4 id="vaderHP"></h4>
+			</div>
+
+			<div class="character" id="maul">
+				<h3>Darth Maul</h3>
+				<h4 id="maulHP"></h4>
+			</div>
+		</div>
+	</div>
+	
+	<div class="you">
+		<p>Your Character</p>
+	</div>
+
+	<div class="enemies">
+		<div class="col-md-12">
+			<p>Enemies Available to Attack</p>
+		</div>
+	</div>
+
+	<div class="fight">
+		<div class="col-md-12">
+			<p>Fight Section</p>
+			<button id="attack">Attack</button>
+		</div>
+	</div>
+
+	<div class="defender">
+		<div class="col-md-12">
+			<p>Defender</p>
+			<h5 id="fightLog"></h5>2
+		</div>	
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

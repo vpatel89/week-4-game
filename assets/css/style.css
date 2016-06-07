@@ -1,0 +1,79 @@
+body{
+	background-image: url('../images/deathStar.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	font-size: 50px;
+	color: white;
+}
+
+h3{
+	color: white;
+	margin: 0;
+	padding: 0px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#lukeHP,
+#yodaHP,
+#vaderHP,
+#maulHP{
+	text-align: right;
+	color: white;
+	margin: 155px 0px 0px 0px;
+	padding: 0px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#fightLog{
+	color: white;
+}
+
+#luke{
+	background: url('../images/lukeSkywalker.jpg');
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: 10px 10px 10px 10px;
+	position: relative;
+	float: left;
+}
+
+#yoda{
+	background: url('../images/yoda.jpg');
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: 10px 10px 10px 10px;
+	position: relative;
+	float: left;
+}
+
+#vader{
+	background: url('../images/darthVader.jpeg');
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: 10px 10px 10px 10px;
+	position: relative;
+	float: left;
+}
+
+#maul{
+	background: url('../images/darthMaul.jpeg');
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: 10px 10px 10px 10px;
+	position: relative;
+	float: left;
+}
+
+#attack{
+	margin: 0px 0px 10px 10px;
+}
